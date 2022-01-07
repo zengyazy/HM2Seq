@@ -1,0 +1,699 @@
+#schedule#
+1 make an appointment to reserve conference_room_100 later this week for a meeting	what day and time should i set an appointment to reserve the conference room ?	['conference']
+2 monday at 3pm	i have made an appointment for monday at 3pm for the meeting	['meeting', '3pm', 'monday']
+
+#schedule#
+0 tennis_activity wednesday 2pm PAD PAD PAD
+0 meeting wednesday 7pm hr conference_room_100 discuss_the_company_picnic
+0 dentist tuesday 1pm PAD PAD PAD
+0 dinner wednesday 5pm PAD PAD PAD
+0 football_activity tuesday 10am PAD PAD PAD
+0 medicine monday 11am PAD PAD PAD
+1 remind me of the time for today s dinner	dinner event time , 5pm , wednesday evening	['5pm', 'dinner', 'wednesday']
+2 thank you	you are welcome	[]
+
+#schedule#
+1 remind me that i need to get my shot on the_12th at about 5pm	reminder has been set for 5pm at the_12th	['the_12th', '5pm']
+2 great thanks	no problem	[]
+
+#schedule#
+0 lab_appointment wednesday 11am PAD PAD PAD
+0 doctor_appointment thursday 2pm PAD PAD PAD
+0 football_activity monday 7pm PAD PAD PAD
+0 dentist friday 1pm PAD PAD PAD
+0 yoga_activity friday 10am PAD PAD PAD
+0 medicine wednesday 7pm PAD PAD PAD
+1 what time and day is my doctor_appointment on	your doctor_appointment is on thursday at 2pm	['2pm', 'thursday', 'doctor_appointment']
+2 thank you	you re welcome	[]
+
+#schedule#
+1 i need to schedule a meeting	okay , when should i schedule it ?	[]
+
+#schedule#
+1 set a reminder that i have a lab_appointment with tom at 4pm on the_5th of this month	your reminder has been scheduled	[]
+
+#schedule#
+0 optometrist_appointment the_6th 5pm jeff PAD PAD
+0 doctor_appointment the_17th 9am mother PAD PAD
+0 optometrist_appointment thursday 1pm martha PAD PAD
+0 swimming_activity the_7th 5pm brother PAD PAD
+0 dinner the_19th 7pm martha PAD PAD
+0 meeting the_11th 9am executive_team conference_room_102 go_over_budget
+0 optometrist_appointment saturday 5pm alex PAD PAD
+0 optometrist_appointment the_5th 2pm sister PAD PAD
+1 can you find out the parties attending and time for my optometrist_appointment ?	i have four , one with alex at 5pm on saturday , one with your sister at 2pm on the_5th , one with jeff on the_6th , and one with martha on thursday which one ?	['saturday', 'the_6th', 'the_5th', '2pm', 'martha', 'alex', 'thursday', 'sister', 'jeff', '5pm']
+2 that will do , thank you kindly	you are welcome	[]
+
+#schedule#
+1 set a reminder for my daughter s swimming lessons	okay , for what time and day ?	[]
+2 i need it to be set for 7pm on the_1st	i am setting a reminder for swimming lessons at 7pm on the_1st	['the_1st', '7pm', 'swimming']
+3 thank you car	you are welcome	[]
+
+#schedule#
+1 i have a lab_appointment with alex at 2 at the end of march	okay great , would you like to set a reminder for it ?	[]
+2 yes , please	okay , i just set that reminder for you can i help with anything else ?	[]
+3 thank you	no problem	[]
+
+#schedule#
+1 schedule my 10am dentist_appointment on friday with my father	okay , i have scheduled your dentist_appointment for this friday at 10am with your father anything else i can help with ?	['dentist_appointment', 'friday', '10am', 'father']
+2 list my current schedule	current schedule is empty	[]
+3 list my schedule for friday	okay , you have a dentist_appointment with your father , at 10am on friday	['dentist_appointment', 'friday', '10am', 'father']
+4 thank you so much !	happy to help	[]
+
+#schedule#
+1 schedule a yoga_activity at 9am with my sister	sure ! do you want me to schedule it for tomorrow ?	['tomorrow']
+2 no , schedule my yoga_activity for today	okay , scheduling your yoga_activity for today at 9am with your sister	['9am', 'yoga_activity', 'today', 'sister']
+
+#schedule#
+0 doctor_appointment wednesday 2pm PAD PAD PAD
+0 swimming_activity monday 1pm PAD PAD PAD
+0 tennis_activity thursday 11am PAD PAD PAD
+0 football_activity wednesday 1pm PAD PAD PAD
+0 dinner friday 5pm PAD PAD PAD
+0 dentist_appointment friday 1pm PAD PAD PAD
+1 is my doctor_appointment on tuesday or wednesday	your doctor_appointment is on wednesday	['doctor_appointment', 'wednesday']
+2 okay thank you	you are welcome	[]
+
+#schedule#
+1 put my eye doctor_appointment into the calendar it s tomorrow at 3pm and remind me 2 hours before	reminding you of eye doctor_appointment tomorrow at 3pm , will remind at 1pm	['tomorrow', '3pm', 'doctor_appointment', '1pm']
+2 thank you !	is there anything else i can do for you ?	[]
+3 no , thanks	you are welcome	[]
+
+#schedule#
+1 set a reminder for dinner on august 8th at 3pm with my aunt	setting reminder for dinner on august 8th at 3pm with aunt	['3pm', 'aunt', 'dinner', '8th']
+2 thanks	you are welcome	[]
+
+#schedule#
+0 optometrist_appointment friday 2pm PAD PAD PAD
+0 football_activity thursday 1pm PAD PAD PAD
+0 lab_appointment friday 2pm PAD PAD PAD
+0 conference tuesday 10am executive_team 100_conference_room discuss_the_company_picnic
+0 medicine tuesday 11am PAD PAD PAD
+0 swimming_activity tuesday 1pm PAD PAD PAD
+1 check the date and time for my swim lesson	the swim lesson is on tuesday at 1pm	['tuesday', '1pm']
+
+#schedule#
+1 set meeting for saturday 11am with the boss	okay , meeting with boss on saturday at 11 is set	['boss', 'meeting', 'saturday']
+2 thank you	you are welcome	[]
+
+#schedule#
+1 set a reminder for tennis with ana at 9am on the_12th of this month	ok setting reminder of your tennis match with ana on the_12th at 9 : 00 a m	['tennis', 'the_12th', 'ana']
+2 thank you	you re welcome	[]
+
+#schedule#
+0 football_activity the_13th 4pm jeff PAD PAD
+0 doctor_appointment the_3rd 4pm father PAD PAD
+0 conference wednesday 1pm boss 100_conference_room go_over_budget
+0 tennis_activity thursday 3pm martha PAD PAD
+0 conference the_13th 10am hr 100_conference_room go_over_quarterly_report
+0 meeting the_3rd 6pm management conference_room_102 discuss_the_company_picnic
+0 lab_appointment the_8th 7pm alex PAD PAD
+0 lab_appointment the_10th 9am martha PAD PAD
+1 what time is my lab_appointment and who is coming ?	your lab_appointment with martha is at 9am	['9am', 'martha', 'lab_appointment']
+2 thanks	you are welcome	[]
+
+#schedule#
+1 set reminder for tennis lesson on august 12th at 4 : 50pm	i have set a reminder for a tennis lesson at 4 : 50pm on august 12th would you like an alarm ?	['tennis', '12th']
+
+#schedule#
+1 please schedule a swimming_activity on sunday at 4pm with my brother	will do , your swimming_activity with brother on sunday at 4pm has been scheduled	['swimming_activity', '4pm', 'sunday', 'brother']
+2 thank you	my pleasure	[]
+3 that is all , thanks	goodbye	[]
+
+#schedule#
+0 medicine wednesday 11am PAD PAD PAD
+0 lab_appointment thursday 10am PAD PAD PAD
+0 yoga_activity tuesday 2pm PAD PAD PAD
+0 tennis_activity tuesday 10am PAD PAD PAD
+0 meeting monday 10am sales_team conference_room_100 discuss_the_merger
+0 swimming_activity wednesday 1pm PAD PAD PAD
+1 what time is my meeting at	i have one meeting on your calendar it is monday at 10am	['meeting', '10am', 'monday']
+2 thank you	no problem	[]
+
+#schedule#
+0 tennis_activity friday 11am PAD PAD PAD
+0 football_activity tuesday 1pm PAD PAD PAD
+0 dentist_appointment monday 3pm PAD PAD PAD
+0 doctor_appointment friday 10am PAD PAD PAD
+0 dentist friday 11am PAD PAD PAD
+0 meeting friday 1pm sales_team 100_conference_room discuss_the_company_picnic
+1 remind me about the date and time that he was going to be there and what the agenda is for his business meaning	who do you mean by him ?	[]
+
+#schedule#
+1 schedule a football_activity with ana on the_6th at 7pm	your football_activity with ana on the_6th at 7pm has been scheduled	['football_activity', 'the_6th', 'ana', '7pm']
+2 thank you again	no problem	[]
+
+#schedule#
+1 schedule a new meeting	what date and time should i schedule your meeting ?	['meeting']
+2 it is today at 1pm with hr to go over the budget	i am setting a new meeting in your calendar for today at 1pm with hr to go over the budget	['hr', 'meeting', '1pm', 'today']
+3 nothing else for now	no problem	[]
+
+#schedule#
+1 set a reminder for my conference call tomorrow	okay , reminder set for conference call tomorrow	['tomorrow', 'conference']
+2 thank you	what time should i set the reminder for ?	[]
+
+#schedule#
+1 set date for a meeting	what is the date and time for the meeting ?	['meeting']
+2 august 3rd at 11am	meeting has been set on august 3rd at 11am	['meeting', '3rd', '11am']
+3 thanks	no problem	[]
+
+#schedule#
+0 meeting friday 10am infrastructure_team 100_conference_room discuss_the_company_picnic
+0 tennis_activity thursday 10am PAD PAD PAD
+0 dinner monday 5pm PAD PAD PAD
+0 dentist_appointment tuesday 11am PAD PAD PAD
+0 swimming_activity tuesday 2pm PAD PAD PAD
+0 doctor_appointment wednesday 10am PAD PAD PAD
+1 tell me when my dinner reservations are scheduled for	your dinner reservations are set for monday at 5pm	['monday', '5pm', 'dinner']
+2 alright , thanks	you are welcome	[]
+
+#schedule#
+0 taking_medicine thursday 1pm martha PAD PAD
+0 meeting the_12th 1pm boss 100_conference_room discuss_the_company_picnic
+0 optometrist_appointment thursday 1pm alex PAD PAD
+0 football_activity the_13th 11am ana PAD PAD
+0 optometrist_appointment the_8th 7pm father PAD PAD
+0 dinner saturday 7pm sister PAD PAD
+0 yoga_activity the_2nd 7pm father PAD PAD
+0 football_activity friday 1pm jeff PAD PAD
+1 what is the date and time of my next football_activity ?	your next football_activity is on friday at 1pm	['friday', 'football_activity', '1pm']
+2 thank you kindly	you re welcome !	[]
+
+#schedule#
+1 put my optometrist_appointment in my calendar	what date and time is your optometrist_appointment at ?	['optometrist_appointment']
+2 my optometrist_appointment is at 10am on sunday	optometrist_appointment in calendar for 10am on sunday	['sunday', '10am', 'optometrist_appointment']
+
+#schedule#
+0 meeting monday 10am sales_team conference_room_50 discuss_the_merger
+0 medicine monday 1pm PAD PAD PAD
+0 lab_appointment tuesday 7pm PAD PAD PAD
+0 conference tuesday 10am hr conference_room_50 go_over_budget
+0 doctor_appointment thursday 7pm PAD PAD PAD
+0 yoga_activity monday 2pm PAD PAD PAD
+1 car what is the date and time of my next dentist_appointment	i have a doctor_appointment for 7pm on thursday	['thursday', '7pm', 'doctor_appointment']
+
+#schedule#
+0 dentist_appointment monday 1pm PAD PAD PAD
+0 football_activity tuesday 11am PAD PAD PAD
+0 lab_appointment tuesday 7pm PAD PAD PAD
+0 optometrist_appointment thursday 7pm PAD PAD PAD
+0 doctor_appointment wednesday 3pm PAD PAD PAD
+0 tennis_activity monday 11am PAD PAD PAD
+1 when am i scheduled for tennis lessons	your tennis_activity is on monday at 11am	['11am', 'tennis_activity', 'monday']
+
+#schedule#
+1 set a reminder for yoga_activity at 11am on the_4th with martha	setting reminder for yoga_activity at 11am on the_4th with martha	['martha', 'yoga_activity', 'the_4th', '11am']
+2 okay , thanks	my pleasure	[]
+
+#schedule#
+0 tennis_activity thursday 11am PAD PAD PAD
+0 dentist friday 11am PAD PAD PAD
+0 dentist_appointment monday 7pm PAD PAD PAD
+0 yoga_activity friday 1pm PAD PAD PAD
+0 lab_appointment friday 1pm PAD PAD PAD
+0 optometrist_appointment wednesday 1pm PAD PAD PAD
+1 what time am i scheduled to play tennis at	your are scheduled to play tennis thursday at 11am	['tennis', '11am', 'thursday']
+
+#schedule#
+1 schedule dinner with martha on the_15th of this month at 10am	reminder for dinner on the_15th at 10am with martha is set	['the_15th', 'martha', '10am', 'dinner']
+2 thanks !	anytime	[]
+
+#schedule#
+0 conference the_3rd 10am infrastructure_team 100_conference_room go_over_budget
+0 dinner friday 6pm father PAD PAD
+0 tennis_activity tuesday 5pm jeff PAD PAD
+0 dinner the_8th 7pm aunt PAD PAD
+0 dentist_appointment saturday 2pm father PAD PAD
+0 doctor_appointment the_4th 11am marie PAD PAD
+0 dentist_appointment wednesday 2pm jeff PAD PAD
+0 yoga_activity the_8th 5pm jeff PAD PAD
+1 what is the date of our dinner and who is attending ?	you have 2 dinners on your schedule one on friday at 6pm with your father and one on the_8th at 7pm with your aunt	['friday', 'the_8th', 'father', '6pm', '7pm', 'aunt']
+2 thank you	you re welcome !	[]
+
+#schedule#
+0 tennis_activity the_4th 10am jeff PAD PAD
+0 tennis_activity the_12th 11am ana PAD PAD
+0 meeting the_3rd 1pm sales_team conference_room_102 go_over_budget
+0 football_activity saturday 11am aunt PAD PAD
+0 optometrist_appointment the_3rd 2pm mother PAD PAD
+0 conference the_6th 4pm sales_team conference_room_50 go_over_quarterly_report
+0 meeting the_3rd 9am sales_team conference_room_100 sign_the_nda
+0 meeting the_12th 1pm boss conference_room_102 discuss_the_company_picnic
+1 what time is my meeting and what is the agenda , also who is attending ?	for which one ? i have one with sales_team at 9am to sign_the_nda , and i also have another with sales_team at 1pm to go_over_budget	['sales_team', '9am', '1pm', 'go_over_budget', 'sign_the_nda']
+2 that will do car thanks	anytime	[]
+
+#schedule#
+1 set a reminder on the_12th to refill my prescription	okay setting a reminder on the_12th to refill prescription	['the_12th']
+
+#schedule#
+1 set a reminder for a doctor_appointment at 2pm on monday the_1st with marie	okay , setting a reminder for your doctor_appointment at 2pm on monday the_1st with marie	['marie', 'monday', 'doctor_appointment', '2pm', 'the_1st']
+2 thanks	you are welcome	[]
+
+#schedule#
+0 yoga_activity saturday 10am jon PAD PAD
+0 tennis_activity thursday 3pm brother PAD PAD
+0 conference wednesday 7pm hr conference_room_102 discuss_dress_code
+0 meeting the_8th 6pm hr conference_room_102 discuss_the_company_picnic
+0 doctor_appointment saturday 5pm alex PAD PAD
+0 dinner saturday 6pm mother PAD PAD
+1 when is my tennis ?	your next tennis_activity is thursday at 3pm with your brother	['thursday', 'brother', '3pm', 'tennis_activity']
+2 thank you	happy to help	[]
+
+#schedule#
+1 set an optometrist_appointment for saturday	what time on saturday should i set the appointment reminder ?	['saturday']
+2 at 3pm and my sister is joining	okay great , i have that all set for you can i help with anything else ?	[]
+
+#schedule#
+0 meeting the_5th 1pm vice_president conference_room_100 go_over_quarterly_report
+0 conference the_8th 1pm hr conference_room_50 go_over_budget
+0 taking_medicine monday 2pm aunt PAD PAD
+0 doctor_appointment the_8th 9am mother PAD PAD
+0 tennis_activity monday 3pm jeff PAD PAD
+0 dinner the_13th 5pm marie PAD PAD
+0 lab_appointment tuesday 2pm father PAD PAD
+0 meeting monday 5pm vice_president conference_room_102 discuss_the_company_picnic
+1 can you please find me the time , date , and what is planned for the next meeting i have scheduled in my calendar ?	your meeting is on the_5th at 1pm , the purpose is to go over the quarterly report	['meeting', '1pm', 'the_5th']
+2 thank you	i m here to serve	[]
+
+#schedule#
+0 conference the_18th 2pm management conference_room_50 sign_the_nda
+0 yoga_activity the_20th 4pm jon PAD PAD
+0 conference the_18th 3pm boss conference_room_102 go_over_budget
+0 dinner saturday 6pm jon PAD PAD
+0 yoga_activity the_11th 9am martha PAD PAD
+0 meeting the_9th 7pm hr conference_room_50 discuss_the_company_picnic
+0 optometrist_appointment the_11th 10am sister PAD PAD
+0 meeting the_10th 11am infrastructure_team conference_room_50 go_over_budget
+1 who is going to be at the meeting ?	which one ? there is one at 11am on the_10th , and there is another at 7pm on the_9th	['the_9th', '11am', 'the_10th', '7pm']
+2 both thanks	hr will be at the one on the_9th and the infrastructure_team will be present at the one on the_10th	['hr', 'the_9th', 'the_10th', 'infrastructure_team']
+
+#schedule#
+1 please set reminder for the_8th at 5pm for yoga my aunt is coming along	okay reminder set for your yoga appointment on the_8th at 5pm with your aunt	['yoga', 'aunt', '5pm', 'the_8th']
+2 thank you	not a problem	[]
+
+#schedule#
+0 tennis_activity wednesday 5pm mother PAD PAD
+0 taking_medicine the_3rd 9am sister PAD PAD
+0 swimming_activity friday 11am father PAD PAD
+0 conference the_8th 6pm infrastructure_team 100_conference_room go_over_budget
+0 meeting the_10th 4pm infrastructure_team conference_room_102 go_over_quarterly_report
+0 dentist_appointment the_13th 10am jeff PAD PAD
+0 dentist_appointment the_5th 11am jeff PAD PAD
+0 lab_appointment the_4th 2pm sister PAD PAD
+1 when is the date and time of my dentist_appointment ?	your dentist_appointment is at 10am on the_13th	['dentist_appointment', '10am', 'the_13th']
+2 thank you	you are welcome	[]
+
+#schedule#
+0 lab_appointment the_17th 2pm mother PAD PAD
+0 lab_appointment the_16th 10am jeff PAD PAD
+0 yoga_activity the_16th 9am marie PAD PAD
+0 taking_medicine the_5th 4pm aunt PAD PAD
+0 yoga_activity the_13th 6pm aunt PAD PAD
+0 yoga_activity thursday 9am sister PAD PAD
+0 dinner sunday 7pm mother PAD PAD
+0 conference the_17th 7pm management conference_room_50 sign_the_nda
+1 what time is my next yoga_activity and who will be attending ?	your next yoga_activity is on thursday with your sister	['thursday', 'yoga_activity', 'sister']
+2 what is the scheduled time for the yoga_activity on thursday ?	your thursday yoga_activity with your sister is at 9am	['9am', 'thursday', 'yoga_activity', 'sister']
+
+#schedule#
+1 can you kindly schedule a meeting at 4pm , later this week with infrastructure to discuss_dress_code ?	scheduling meeting for 4pm later this week with infrastructure to discuss_dress_code do you have a specific day in mind ?	['discuss_dress_code', 'meeting', '4pm', 'week']
+2 thursday	anything else ?	[]
+3 no that was everything , thanks	you re welcome	[]
+
+#schedule#
+1 set reminder for conference at 9am on wednesday with infrastructure_team	okay setting reminder for your meeting with the infrastructure_team on wednesday at 9am	['9am', 'meeting', 'infrastructure_team', 'wednesday']
+2 thank you	happy to help	[]
+
+#schedule#
+0 doctor_appointment friday 1pm PAD PAD PAD
+0 tennis_activity wednesday 1pm PAD PAD PAD
+0 dinner thursday 5pm PAD PAD PAD
+0 yoga_activity monday 2pm PAD PAD PAD
+0 lab_appointment wednesday 7pm PAD PAD PAD
+0 medicine friday 10am PAD PAD PAD
+1 tell me when my next tennis game is	your next tennis_activity is on wednesday at 1pm	['1pm', 'tennis_activity', 'wednesday']
+2 great	you re welcome	[]
+
+#schedule#
+1 set reminder for lab check up	okay , what date should the reminder be on ?	[]
+2 the_12th	the_12th	['the_12th']
+
+#schedule#
+0 lab_appointment the_4th 5pm mother PAD PAD
+0 swimming_activity the_4th 6pm martha PAD PAD
+0 doctor_appointment tuesday 10am sister PAD PAD
+0 taking_medicine the_10th 6pm brother PAD PAD
+0 yoga_activity the_5th 9am sister PAD PAD
+0 swimming_activity thursday 6pm jeff PAD PAD
+0 lab_appointment friday 4pm jeff PAD PAD
+0 lab_appointment monday 4pm brother PAD PAD
+1 what time and date is my lab_appointment ?	your lab_appointment is scheduled on friday at 4pm	['friday', '4pm', 'lab_appointment']
+2 thank you !	you are welcome	[]
+
+#schedule#
+1 set a reminder for dinner on august 3rd at 9pm with my brother	a reminder has been set for dinner on august 3rd at 9pm with your brother	['3rd', 'brother', 'dinner']
+
+#schedule#
+0 dinner the_20th 8pm jeff PAD PAD
+0 optometrist_appointment the_7th 2pm ana PAD PAD
+0 lab_appointment tuesday 6pm mother PAD PAD
+0 dinner the_13th 8pm sister PAD PAD
+0 tennis_activity the_8th 4pm martha PAD PAD
+0 lab_appointment the_17th 4pm jeff PAD PAD
+0 dentist_appointment the_1st 9am jon PAD PAD
+0 yoga_activity the_7th 10am brother PAD PAD
+1 what is the date and time of my next lab_appointment ?	you have two , one at 4pm on the_17th , and one at 6pm on tuesday	['the_17th', '6pm', '4pm', 'tuesday']
+2 thank you	happy to help	[]
+
+#schedule#
+1 add meeting in conference_room_102 the calendar	what day and time is the meeting ?	['meeting']
+2 the meeting is at 2pm on august 3rd with sales_team to discuss_the_merger	setting meeting at 2pm on august 3rd with sales_team to discuss_the_merger	['3rd', 'sales_team', 'discuss_the_merger', '2pm', 'meeting']
+3 perfect nothing else for now	glad to be of service	[]
+
+#schedule#
+0 meeting friday 11am management conference_room_102 discuss_dress_code
+0 conference the_4th 6pm boss 100_conference_room go_over_quarterly_report
+0 optometrist_appointment the_10th 10am tom PAD PAD
+0 doctor_appointment the_8th 5pm tom PAD PAD
+0 yoga_activity wednesday 7pm brother PAD PAD
+0 swimming_activity the_8th 11am martha PAD PAD
+1 what day and time is my yoga_activity ?	your yoga_activity is on wednesday at 7pm	['yoga_activity', '7pm', 'wednesday']
+2 alright , thanks	you re welcome	[]
+
+#schedule#
+0 football_activity friday 11am PAD PAD PAD
+0 yoga_activity thursday 2pm PAD PAD PAD
+0 dentist friday 7pm PAD PAD PAD
+0 optometrist_appointment tuesday 1pm PAD PAD PAD
+0 medicine friday 10am PAD PAD PAD
+0 swimming_activity monday 2pm PAD PAD PAD
+1 what time is the football game this week	the football game is on friday at 11am	['friday', '11am', 'football']
+2 thank you car	you are welcome human	[]
+
+#schedule#
+1 please schedule a game of tennis with my friend for next_week	okay , please tell me which day you would like me to schedule	[]
+
+#schedule#
+0 dentist_appointment tuesday 2pm PAD PAD PAD
+0 doctor_appointment wednesday 2pm PAD PAD PAD
+0 optometrist_appointment tuesday 1pm PAD PAD PAD
+0 swimming_activity thursday 2pm PAD PAD PAD
+0 conference thursday 1pm sales_team conference_room_102 discuss_the_merger
+0 tennis_activity thursday 10am PAD PAD PAD
+1 when is my doctor_appointment	your doctor_appointment is wednesday at 2pm	['2pm', 'doctor_appointment', 'wednesday']
+
+#schedule#
+0 dentist_appointment monday 5pm brother PAD PAD
+0 football_activity the_10th 6pm jon PAD PAD
+0 optometrist_appointment the_7th 4pm ana PAD PAD
+0 meeting the_11th 10am hr 100_conference_room discuss_the_merger
+0 dinner the_15th 6pm marie PAD PAD
+0 optometrist_appointment the_18th 4pm martha PAD PAD
+0 football_activity the_5th 11am ana PAD PAD
+0 meeting monday 6pm executive_team 100_conference_room discuss_dress_code
+1 what time is my football_activity and who is attending ?	which one ? i have two , one for 11am with ana , and one for 6pm with job	['6pm', '11am', 'ana']
+2 that s all the info i needed , thanks	all done , you are welcome	[]
+
+#schedule#
+0 meeting wednesday 2pm executive_team 100_conference_room go_over_budget
+0 tennis_activity thursday 3pm PAD PAD PAD
+0 dentist wednesday 2pm PAD PAD PAD
+0 football_activity tuesday 3pm PAD PAD PAD
+0 medicine monday 2pm PAD PAD PAD
+0 conference friday 2pm infrastructure_team 100_conference_room discuss_the_merger
+1 what time is the football game	the football game is at 3pm	['3pm', 'football']
+
+#schedule#
+1 i have an appointment at 1pm on wednesday with alex	okay making appointment with alex on wednesday at 1pm	['alex', '1pm', 'wednesday']
+2 thanks !	my pleasure	[]
+
+#schedule#
+1 schedule a conference with the vice_president next_week at 4pm	i have scheduled a conference with the vice_president next_week at 4pm	['next_week', 'vice_president', '4pm', 'conference']
+
+#schedule#
+1 set a reminder for my yoga class on the_12th	what time is your yoga class	['yoga']
+
+#schedule#
+0 taking_medicine the_3rd 3pm mother PAD PAD
+0 lab_appointment the_7th 2pm alex PAD PAD
+0 optometrist_appointment the_9th 7pm martha PAD PAD
+0 optometrist_appointment wednesday 1pm father PAD PAD
+0 doctor_appointment the_4th 6pm mother PAD PAD
+0 yoga_activity the_18th 7pm ana PAD PAD
+0 dinner the_12th 5pm martha PAD PAD
+0 tennis_activity the_8th 7pm jon PAD PAD
+1 what time is the optometrist_appointment and who is going ?	i have two , one at 1pm with father , and one at 7pm with martha	['father', 'martha', '1pm', '7pm']
+2 the one with martha thanks	the optometrist_appointment with martha is at 7pm	['martha', '7pm', 'optometrist_appointment']
+3 thanks !	anytime !	[]
+
+#schedule#
+1 i need you to set a reminder for me to take my medicine set it for 10am , the_7th with jon , please	alright , setting a reminder at 10am to take medicine on the_7th with jon	['10am', 'jon', 'the_7th']
+2 thank you	you re welcome	[]
+
+#schedule#
+1 make an appointment with the dentist	when would you like to schedule your appointment ?	[]
+
+#schedule#
+0 conference wednesday 7pm infrastructure_team 100_conference_room discuss_dress_code
+0 doctor_appointment saturday 4pm martha PAD PAD
+0 swimming_activity sunday 6pm brother PAD PAD
+0 tennis_activity the_4th 3pm martha PAD PAD
+0 football_activity the_8th 10am jeff PAD PAD
+0 dentist_appointment thursday 6pm jeff PAD PAD
+0 swimming_activity monday 10am martha PAD PAD
+0 tennis_activity the_13th 1pm alex PAD PAD
+1 what day and time is my tennis_activity ?	your tennis_activity is on the_4th at 3pm	['the_4th', 'tennis_activity', '3pm']
+2 thanks	no problem , have a good day	[]
+
+#schedule#
+0 meeting thursday 11am hr conference_room_100 go_over_budget
+0 dentist wednesday 1pm PAD PAD PAD
+0 medicine thursday 2pm PAD PAD PAD
+0 football_activity friday 11am PAD PAD PAD
+0 optometrist_appointment friday 3pm PAD PAD PAD
+0 lab_appointment wednesday 11am PAD PAD PAD
+1 tell me the time of today s football game	today s football_activity is at 11am	['football_activity', '11am', 'today']
+
+#schedule#
+0 tennis_activity tuesday 11am PAD PAD PAD
+0 dentist thursday 10am PAD PAD PAD
+0 conference wednesday 2pm infrastructure_team conference_room_50 discuss_the_merger
+0 optometrist_appointment friday 10am PAD PAD PAD
+0 dentist_appointment thursday 7pm PAD PAD PAD
+0 doctor_appointment wednesday 10am PAD PAD PAD
+1 when s my doctor_appointment	your doctor_appointment is at 10am on wednesday	['10am', 'doctor_appointment', 'wednesday']
+
+#schedule#
+0 meeting tuesday 7pm sales_team conference_room_102 go_over_budget
+0 tennis_activity tuesday 11am PAD PAD PAD
+0 doctor_appointment monday 7pm PAD PAD PAD
+0 yoga_activity tuesday 3pm PAD PAD PAD
+0 dinner tuesday 5pm PAD PAD PAD
+0 swimming_activity wednesday 3pm PAD PAD PAD
+1 what time is my tennis match for this saturday	your tennis_activity is scheduled for 11am on tuesday , nothing is scheduled for saturday	['tuesday', 'saturday', '11am', 'tennis_activity']
+2 oh okay well thank you car	you are welcome	[]
+
+#schedule#
+1 set a reminder about my swim meet next wednesday at 3pm	your swim meet has been set for 3pm next wednesday , the_7th .... is that correct ?	['3pm', 'the_7th', 'wednesday']
+2 yes , that is correct thank you !	you are welcome !	[]
+
+#schedule#
+1 can you set a reminder for a yoga_activity at 2pm on the_1st	okay , i am scheduling a yoga_activity for you on the_1st at 2pm	['the_1st', 'yoga_activity', '2pm']
+2 my sister is coming along , thanks	your sister has been added to parties involved for your yoga_activity at 2pm on the_1st	['2pm', 'yoga_activity', 'the_1st', 'sister']
+3 perfect	i m happy to help you !	[]
+
+#schedule#
+1 schedule a doctor_appointment with my brother for august 3rd at 10am	okay , scheduling a doctor_appointment with your brother for august 3rd at 10am	['3rd', '10am', 'brother', 'doctor_appointment']
+2 thanks	no problem driver	[]
+
+#schedule#
+0 tennis_activity the_14th 1pm martha PAD PAD
+0 conference the_6th 4pm executive_team conference_room_102 sign_the_nda
+0 lab_appointment the_3rd 2pm martha PAD PAD
+0 optometrist_appointment the_3rd 10am alex PAD PAD
+0 meeting the_7th 3pm management 100_conference_room onboard_new_members
+0 optometrist_appointment thursday 2pm tom PAD PAD
+0 lab_appointment the_7th 9am aunt PAD PAD
+0 dentist_appointment wednesday 9am sister PAD PAD
+1 what is the date of my next optometrist_appointment and who will be attending ?	i have two , one on thursday with tom , and one on the_3rd with alex	['thursday', 'alex', 'tom', 'the_3rd']
+2 thanks	you are welcome driver	[]
+
+#schedule#
+0 conference wednesday 4pm management conference_room_50 discuss_the_merger
+0 lab_appointment the_3rd 3pm martha PAD PAD
+0 yoga_activity the_8th 1pm brother PAD PAD
+0 lab_appointment the_13th 7pm brother PAD PAD
+0 taking_medicine tuesday 1pm marie PAD PAD
+0 doctor_appointment the_3rd 4pm marie PAD PAD
+0 meeting thursday 1pm executive_team conference_room_102 discuss_the_company_picnic
+0 conference thursday 9am vice_president conference_room_50 discuss_dress_code
+1 what day is my lab_appointment and who is coming with ?	currently you have two lab_appointment one on the_3rd which martha is attending , and one on the_13th that your brother is attending	['the_13th', 'martha', 'lab_appointment', 'brother', 'the_3rd']
+2 thank you for your help	you are welcome	[]
+
+#schedule#
+1 i have a meeting on the_12th of august at 5 : 50 please remind me	i have set a reminder for your meeting on august 12th at 5 : 50	['meeting', '12th']
+2 thank you	glad to be of service	[]
+
+#schedule#
+1 schedule a dinner at 3pm on monday the_1st with alex	okay , scheduling dinner with alex for monday the_1st at 3pm	['monday', 'dinner', 'alex', 'the_1st', '3pm']
+2 thanks !	you are very welcome !	[]
+
+#schedule#
+1 schedule a football_activity with my mother for august 14th at 11am	setting a schedule for football_activity with mother for august 14th at 11am	['football_activity', '11am', '14th', 'mother']
+2 thank you buddy	you are welcome friend	[]
+
+#schedule#
+1 schedule a blood test	what date and time are you blood test ?	[]
+2 it is tomorrow at 1pm	your blood test has been scheduled for tomorrow at 1pm	['tomorrow', '1pm']
+3 perfect	no problem	[]
+
+#schedule#
+0 dentist_appointment friday 11am PAD PAD PAD
+0 medicine friday 10am PAD PAD PAD
+0 dentist wednesday 11am PAD PAD PAD
+0 yoga_activity wednesday 11am PAD PAD PAD
+0 doctor_appointment wednesday 2pm PAD PAD PAD
+0 optometrist_appointment wednesday 1pm PAD PAD PAD
+1 when is my next yoga class	your next yoga class is at 11am on wednesday	['yoga', '11am', 'wednesday']
+
+#schedule#
+0 taking_medicine monday 3pm mother PAD PAD
+0 meeting the_18th 3pm infrastructure_team conference_room_100 sign_the_nda
+0 doctor_appointment the_11th 3pm father PAD PAD
+0 lab_appointment the_20th 6pm mother PAD PAD
+0 conference the_15th 11am management conference_room_102 discuss_the_merger
+0 yoga_activity friday 7pm jon PAD PAD
+0 conference the_11th 4pm management conference_room_102 discuss_the_company_picnic
+0 taking_medicine the_11th 6pm tom PAD PAD
+1 what time do i have to take medicine and who is helping ?	i have you set for two one at 6pm and one at 3pm	['6pm', '3pm']
+2 who will be helping me for the one at 3pm ?	mother is one the helping at 3pm anything else ?	['3pm', 'mother']
+3 nope , thank you	you are welcome	[]
+
+#schedule#
+1 set doctor_appointment for next_week	what time should i set the appointment ?	[]
+
+#schedule#
+1 schedule a dentist_appointment with alex for monday august 8th at 6pm	your dentist_appointment with alex has been scheduled for monday at 6pm	['dentist_appointment', '6pm', 'alex', 'monday']
+2 thank you	you re welcome	[]
+
+#schedule#
+1 set a reminder to take my medicine on monday aug 8 at 7pm with my mother	setting a reminder to take my medicine on monday aug 8 at 7pm with your mother	['7pm', 'monday', 'mother']
+2 thanks	you are welcome	[]
+
+#schedule#
+0 lab_appointment wednesday 2pm jon PAD PAD
+0 football_activity the_12th 4pm sister PAD PAD
+0 taking_medicine the_11th 5pm father PAD PAD
+0 swimming_activity the_15th 6pm marie PAD PAD
+0 swimming_activity sunday 6pm brother PAD PAD
+0 taking_medicine the_10th 4pm marie PAD PAD
+0 dentist_appointment the_10th 10am marie PAD PAD
+0 dinner the_13th 6pm martha PAD PAD
+1 what time is my next swimming_activity and who will be attending ?	your next swimming_activity is at 6pm with your brother on sunday	['swimming_activity', 'sunday', 'brother', '6pm']
+
+#schedule#
+1 set date for a meeting	when ?	[]
+
+#schedule#
+1 please add playing tennis to my schedule	what day and time should i add playing tennis to your schedule ?	['tennis']
+2 august 8th at 10am	okay , adding playing tennis to your calendar , on august the_8th at 10am	['tennis', '10am', 'the_8th']
+
+#schedule#
+0 yoga_activity friday 2pm PAD PAD PAD
+0 dentist tuesday 7pm PAD PAD PAD
+0 doctor_appointment thursday 1pm PAD PAD PAD
+0 optometrist_appointment thursday 3pm PAD PAD PAD
+0 lab_appointment thursday 7pm PAD PAD PAD
+0 conference friday 1pm infrastructure_team conference_room_100 discuss_the_merger
+1 give me the time for my next doctor_appointment	your next doctor_appointment is thursday at 1pm	['thursday', '1pm', 'doctor_appointment']
+2 okay perfect	you are welcome	[]
+
+#schedule#
+1 set calendar reminder for 1pm this coming tuesday with my aunt	sure , a calender reminder has been set for 1pm this upcoming tuesday with your aunt	['tuesday', '1pm', 'aunt']
+2 thank you !	my pleasure	[]
+
+#schedule#
+1 set an appointment reminder for the dentist	what date and time would you like to make your appointment ?	[]
+
+#schedule#
+1 schedule a football_activity with tom on the_8th at 5pm	okay , i am scheduling a football_activity with tom for the_8th at 5pm	['football_activity', 'tom', '5pm', 'the_8th']
+
+#schedule#
+0 yoga_activity tuesday 2pm PAD PAD PAD
+0 dentist_appointment wednesday 3pm PAD PAD PAD
+0 medicine tuesday 7pm PAD PAD PAD
+0 swimming_activity thursday 10am PAD PAD PAD
+0 doctor_appointment wednesday 2pm PAD PAD PAD
+0 lab_appointment wednesday 7pm PAD PAD PAD
+1 what time is my workout class today	your yoga class or swimming ?	['yoga', 'swimming']
+2 swimming , and i d also like to know the time	your swimming class is scheduled for 10am today	['today', '10am', 'swimming']
+
+#schedule#
+1 set a reminder for an optometrist_appointment at 9am on the_6th of this month - my brother will be there as well	i will set a reminder for an optometrist_appointment at 9am on the_6th of this month with your brother attending as well	['9am', 'brother', 'the_6th', 'optometrist_appointment']
+2 thanks !	you re welcome	[]
+
+#schedule#
+0 meeting the_6th 10am infrastructure_team 100_conference_room sign_the_nda
+0 dinner the_7th 6pm sister PAD PAD
+0 doctor_appointment the_14th 4pm marie PAD PAD
+0 yoga_activity the_20th 11am aunt PAD PAD
+0 yoga_activity tuesday 2pm alex PAD PAD
+0 doctor_appointment the_11th 6pm tom PAD PAD
+0 yoga_activity the_11th 1pm mother PAD PAD
+0 football_activity the_11th 1pm alex PAD PAD
+1 i have a yoga_activity who is going with me ?	you have three yoga_activity scheduled one with alex , your mother , and your aunt	['yoga_activity', 'alex', 'aunt', 'mother']
+
+#schedule#
+1 set reminder for vaccination for the_12th of this month	your reminder is set	[]
+
+#schedule#
+1 i need to schedule a conference room	what is the date and time needed ?	[]
+
+#schedule#
+1 remind me about my meeting with the vice_president on monday the_1st	scheduling your meeting with the vice_president on monday the_1st , what time shall i add ?	['the_1st', 'meeting', 'vice_president', 'monday']
+2 it s at 6pm to discuss_the_company_picnic	okay , setting a reminder about your meeting with the vice_president on monday the_1st at 6pm to discuss_the_company_picnic	['monday', '6pm', 'the_1st', 'vice_president', 'discuss_the_company_picnic', 'meeting']
+3 thank you	no problem	[]
+
+#schedule#
+1 can you schedule a conference at 4pm , the_12th of this month with the vice_president ?	okay , i ve got it scheduled for you anything else ?	[]
+2 that s all , thank you !	anytime !	[]
+
+#schedule#
+0 optometrist_appointment tuesday 7pm PAD PAD PAD
+0 lab_appointment friday 10am PAD PAD PAD
+0 dentist thursday 3pm PAD PAD PAD
+0 conference tuesday 7pm sales_team 100_conference_room discuss_the_company_picnic
+0 tennis_activity monday 11am PAD PAD PAD
+0 meeting tuesday 11am hr conference_room_50 discuss_the_company_picnic
+1 tell me what day and time i scheduled my blood test for this month	you lab_appointment is at 10am on friday	['friday', 'lab_appointment', '10am']
+
+#schedule#
+1 set a reminder for my football_activity today at 1pm with jon	okay , setting a reminder for your football_activity today at 1pm with jon	['jon', 'football_activity', '1pm', 'today']
+2 thanks	no problem	[]
+
+#schedule#
+1 set reminder for dinner	is there a date or time for dinner that i should add to this reminder ?	['dinner']
+2 tomorrow at 7pm	where is the location ?	[]
+3 there is no location to add	i have set a reminder for dinner at 7pm tomorrow	['tomorrow', '7pm', 'dinner']
+4 okay thank you	you are welcome	[]
+
+#schedule#
+1 set a reminder to take medicine with jon at 5pm on the tenth	reminder set for jon to take medicine on the_10th at 5pm	['5pm', 'jon', 'the_10th']
+2 great , thanks	you are welcome	[]
+
+#schedule#
+1 schedule dinner with my father at 4pm on monday the_1st	okay , scheduling a dinner with your father for monday the_1st at 4pm	['monday', 'dinner', 'father', 'the_1st', '4pm']
+2 awesome , thanks	no problem	[]
+
+#schedule#
+0 lab_appointment saturday 10am tom PAD PAD
+0 taking_medicine the_1st 2pm mother PAD PAD
+0 dentist_appointment the_14th 3pm brother PAD PAD
+0 taking_medicine the_17th 10am alex PAD PAD
+0 doctor_appointment the_15th 1pm sister PAD PAD
+0 meeting the_18th 4pm executive_team conference_room_100 discuss_dress_code
+0 dentist_appointment monday 4pm tom PAD PAD
+0 taking_medicine friday 11am jeff PAD PAD
+1 i need the time and parties for taking_medicine please	for which one ? i have three , one with jeff at 11am one with alex at 10am , and one with your mother at 2pm	['11am', 'mother', '2pm', 'alex', '10am', 'jeff']
+2 that will do just fine , goodbye	you are welcome	[]
+
