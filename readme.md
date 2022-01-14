@@ -13,19 +13,19 @@ Traditional pipeline methods for task-oriented dialogue systems are designed ind
 We created `myTrain.py` to train models. You can run:
 HM2Seq navigate domain of KVR dialogue:
 ```console
-❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=kvr_navigate 
+❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=kvr_navigate -rec=1 
 ```
 or HM2Seq schedule domain of KVR dialogue:
 ```console
-❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=kvr_schedule 
+❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=kvr_schedule -rec=1 
 ```
 or HM2Seq weather domain of KVR dialogue:
 ```console
-❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=kvr_weather 
+❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=kvr_weather -rec=1
 ```
 or HM2Seq Camrest dialogue:
 ```console
-❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=camrest
+❱❱❱ python myTrain.py -lr=0.001 -l=3 -hdd=128 -dr=0.2 -bsz=8 -ds=camrest -rec=1
 ```
 
 While training, the model with the best validation is saved. If you want to reuse a model add `-path=path_name_model` to the function call. The model is evaluated by using per responce accuracy, WER, F1 and BLEU.
