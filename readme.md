@@ -34,7 +34,7 @@ While training, the model with the best validation is saved. If you want to reus
 We created  `myTest.py` to train models. You can run:
 HM2Seq navigate domain of KVR dialogue:
 ```console
-❱❱❱ python myTest.py -ds=kvr_navigate -path=<path_to_saved_model> 
+❱❱❱ python myTest.py -ds=kvr_navigate -path=<path_to_saved_model> -rec=1
 ```
 or HM2Seq Camrest dialogue 
 ```console
