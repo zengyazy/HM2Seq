@@ -180,8 +180,8 @@ def generate_memory(sent, speaker, time):
 
 def prepare_data_seq(batch_size=100):
     file_train = 'data/CamRest/CamRest676_train.txt'
-    file_dev = 'data/CamRest/{}CamRest676_dev.txt'
-    file_test = 'data/CamRest/{}CamRest676_test.txt'
+    file_dev = 'data/CamRest/CamRest676_dev.txt'
+    file_test = 'data/CamRest/CamRest676_test.txt'
 
     pair_train, train_max_len = read_langs(file_train, max_line=None)
     pair_dev, dev_max_len = read_langs(file_dev, max_line=None)
