@@ -25,8 +25,6 @@ else:
 
 if DS=='kvr':
     from utils.utils_Ent_kvr import *
-elif DS=='babi':
-    from utils.utils_Ent_babi import *
 elif DS=='camrest':
     from utils.utils_Ent_camrest import *
 else:
