@@ -18,8 +18,6 @@ DS = 'kvr' if 'kvr' in directory[1].split('_')[1].lower() else 'camrest'
 # print(args['dataset'])
 if args['dataset'].split('_')[0] == 'kvr':
 	DS = 'kvr'
-elif args['dataset'] == 'babi':
-	DS = 'babi'
 elif args['dataset'] == 'camrest':
 	DS = 'camrest'
 else:
