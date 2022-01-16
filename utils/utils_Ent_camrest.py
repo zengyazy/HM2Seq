@@ -32,18 +32,8 @@ def read_langs(file_name, max_line=None):
 
                     # Get gold entity for each domain
                     ent_index = ast.literal_eval(gold_ent)
-                    # ent_idx_cal, ent_idx_nav, ent_idx_wet = [], [], []
-                    # if task_type == "weather":
-                    #     ent_idx_wet = gold_ent
-                    # elif task_type == "schedule":
-                    #     ent_idx_cal = gold_ent
-                    # elif task_type == "navigate":
-                    #     ent_idx_nav = gold_ent
-                    # ent_index = list(set(ent_idx_cal + ent_idx_nav + ent_idx_wet))
 
                     # Get global pointer labels for words in system response, the 1 in the end is for the NULL token
-                    # selector_index_story = [1 if (word_arr[0] in ent_index or word_arr[0] in r.split()) else 0 for
-                    #                         word_arr in context_arr] + [1]
                     selector_index_story = [1 if (word_arr[0] in ent_index or word_arr[0] in r.split()) else 0 for word_arr in context_arr] + [1]
                     # selector_index_kb = [1 if (word_arr[0] in ent_index or word_arr[0] in r.split()) else 0 for word_arr in kb_arr] + [1]
                     selector_row_num = np.zeros(len(kb_arr))
@@ -65,24 +55,6 @@ def read_langs(file_name, max_line=None):
                         else:
                             index = len(context_arr)
                         ptr_index_story.append(index)
-
-                    # ptr_index_kb = []
-                    # for key in r.split():
-                    #     index = [loc for loc, val in enumerate(kb_arr) if (val[0] == key and key in ent_index)]
-                    #     if (index):
-                    #         index = max(index)
-                    #     else:
-                    #         index = len(kb_arr)
-                    #     ptr_index_kb.append(index)
-
-                    # ptr_index_kb = []
-                    # for key in r.split():
-                    #     index = [loc for loc, val in enumerate(kb_arr) if (val[0] == key and key in ent_index)]
-                    #     if (index):
-                    #         index = max(index)
-                    #     else:
-                    #         index = len(kb_arr)
-                    #     ptr_index_kb.append(index)
 
                     ptr_index_kb = []
                     for key in r.split():
@@ -201,18 +173,15 @@ def generate_memory(sent, speaker, time):
             temp = [word, speaker, 'turn' + str(time), 'word' + str(idx)] + ["PAD"] * (MEM_TOKEN_SIZE - 4)
             sent_new.append(temp)
     else:
-        # print(len(sent_token))
-        # print(sent_token)
         sent_token = sent_token + ["PAD"] * (MEM_TOKEN_SIZE - len(sent_token))
-        # sent_token = sent_token[::-1] + ["PAD"]*(MEM_TOKEN_SIZE-len(sent_token))
         sent_new.append(sent_token)
     return sent_new
 
 
-def prepare_data_seq(task, batch_size=100):
-    file_train = 'data/CamRest/{}CamRest676_train.txt'.format(task)
-    file_dev = 'data/CamRest/{}CamRest676_dev.txt'.format(task)
-    file_test = 'data/CamRest/{}CamRest676_test.txt'.format(task)
+def prepare_data_seq(batch_size=100):
+    file_train = 'data/CamRest/CamRest676_train.txt'
+    file_dev = 'data/CamRest/{}CamRest676_dev.txt'
+    file_test = 'data/CamRest/{}CamRest676_test.txt'
 
     pair_train, train_max_len = read_langs(file_train, max_line=None)
     pair_dev, dev_max_len = read_langs(file_dev, max_line=None)
@@ -238,6 +207,5 @@ def prepare_data_seq(task, batch_size=100):
 
 def get_data_seq(file_name, lang, max_len, batch_size=1):
     pair, _ = read_langs(file_name, max_line=None)
-    # print(pair)
     d = get_seq(pair, lang, batch_size, False)
     return d
