@@ -17,12 +17,6 @@ if args['dataset'].split('_')[0]=='kvr':
 elif args['dataset']=='camrest':
     from utils.utils_Ent_camrest import *
     early_stop = 'ENTF1'
-elif args['dataset']=='babi':
-    from utils.utils_Ent_babi import *
-    early_stop = None 
-    if args["task"] not in ['1','2','3','4','5']:
-        print("[ERROR] You need to provide the correct --task information")
-        exit(1)
 else:
     print("[ERROR] You need to provide the --dataset information")
 
